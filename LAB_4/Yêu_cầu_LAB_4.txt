@@ -1,0 +1,9 @@
+Xây dựng hệ thống xử lý và xóa phông nền ảnh trực tuyến sử dụng Spark. Các bạn tổ chức project và commit push lên github, sau đó nộp file txt chứa đường dẫn đến repo github của bài lab.
+
+Yêu cầu:
+
+1. Xây dựng một module giả lập server gồm một camera nhận hình ảnh và chuyển hình ảnh thành các gói tin và gửi đến server xử lý.
+
+2. Xây dựng một module giả lập server xử lý, nhận gói tin các khung hình (frame) từ server camera và tiến hành xóa nền cho từng frame. Sau đó lưu các frame đó thành các file ảnh. Quá trình xử lý xóa nền cho từng frame được thực hiện trong ngữ cảnh của Spark.
+
+Lưu ý: Nội dung bài thực hành là liên quan đến công nghệ dữ liệu lớn. Do đó những bài thực hành không mô phỏng được quá trình truyền tải dữ liệu giữa các server (streaming data) hoặc không liên quan đến công nghệ Spark thì mặc định là 0 điểm.
